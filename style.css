@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #cedf00;
+}
+
+#container {
+  margin: 0 1rem;
+}
+
+#title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#logo img {
+  width: 140px;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.abng {
+  width: 90px;
+}
+
+#sub-caixas {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+#caixas {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#sub-caixas div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 190px;
+  width: 160px;
+}
+
+.caixa {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.foto {
+  height: 180px;
+  border-radius: 10px;
+}
+
+.informacao {
+  border-radius: 10px;
+  background-color: #fff;
+  width: 100%;
+  padding: 15px 10px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.qrcode {
+  width: 140px;
+}
+
+h1 {
+  font-size: 15px;
+  color: #2f2f2f;
+  margin-bottom: 2px;
+}
+
+.categoria {
+  font-weight: bold;
+  color: #2f2f2f;
+}
+
+.codigo {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+button {
+  padding: 10px 1rem;
+  border-radius: 30px;
+  border: none;
+  color: greenyellow;
+  background-color: #0c6821;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+#butao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+p {
+  font-size: 0.9rem;
+}
